@@ -1,0 +1,84 @@
+{
+  "Section" : [
+    {
+      "SectionName" : "Part One",
+      "Content" : [
+        {
+          "text" : "Developing the user interface of a professional software application is not easy."
+        },
+        {
+          "text" : "It can be a murky blend of data, interaction design, visual design, connectivity, multithreading, security, internationalization, validation, unit testing, and a touch of voodoo."
+        },
+        {
+          "text" : "Considering that a user interface exposes the underlying system and must satisfy the unpredictable stylistic requirements of its users, it can be the most volatile area of many applications."
+        },
+        {
+          "text" : "There are popular design patterns that can help to tame this unwieldy beast, but properly separating and addressing the multitude of concerns can be difficult."
+        },
+        {
+          "text" : "The more complicated the patterns are, the more likely that shortcuts will be used later on which undermine all previous efforts to do things the right way."
+        },
+        {
+          "text" : "It is not always the design patterns at fault."
+        },
+        {
+          "text" : "Sometimes we use complicated design patterns, which require writing a lot of code because the UI platform in use does not lend itself well to a simpler pattern."
+        }
+        {
+          "text" : "What's needed is a platform that makes it easy to build UIs using simple, time-tested, developer-approved design patterns."
+        }
+        {
+          "text" : "Fortunately, Windows Presentation Foundation (WPF) provides exactly that."
+        }
+      ]
+    },
+    {
+      "SectionName" : "Part Two",
+      "Content" : [
+        {
+          "text" : "As the software world continues to adopt WPF at an increasing rate, the WPF community has been developing its own ecosystem of patterns and practices."
+        },
+        {
+          "text" : "In this article, I'll review some of those best practices for designing and implementing client applications with WPF."
+        },
+        {
+          "text" : "By leveraging some core features of WPF in conjunction with the Model-View-ViewModel (MVVM) design pattern, I will walk through an example program that demonstrates just how simple it can be to build a WPF application the right way."
+        },
+        {
+          "text" : "By the end of this article, it will be clear how data templates, commands, data binding, the resource system, and the MVVM pattern all fit together to create a simple, testable, robust framework on which any WPF application can thrive."
+        },
+        {
+          "text" : "The more complicated the patterns are, the more likely that shortcuts will be used later on which undermine all previous efforts to do things the \"right way\"."
+        },
+        {
+          "text" : "The demonstration program that accompanies this article can serve as a template for a real WPF application that uses MVVM as its core architecture."
+        },
+        {
+          "text" : "The unit tests in the demo solution show how easy it is to test the functionality of an application's user interface when that functionality exists in a set of ViewModel classes. Before diving into the details, let's review why you should use a pattern like MVVM in the first place."
+        }
+      ]
+    }{
+      "SectionName" : "Part Three",
+      "Content" : [
+        {
+          "text" : "It is unnecessary and counterproductive to use design patterns in a simple \"Hello, World!\" program."
+        },
+        {
+          "text" : "Any competent developer can understand a few lines of code at a glance."
+        },
+        {
+          "text" : "However, as the number of features in a program increases, the number of lines of code and moving parts increase accordingly."
+        },
+        {
+          "text" : "Eventually, the complexity of a system, and the recurring problems it contains, encourages developers to organize their code in such a way that it is easier to comprehend, discuss, extend, and troubleshoot."
+        },
+        {
+          "text" : "We diminish the cognitive chaos of a complex system by applying well-known names to certain entities in the source code."
+        },
+        {
+          "text" : " We determine the name to apply to a piece of code by considering its functional role in the system."
+        }
+      ]
+    }
+  ]
+}
