@@ -23,10 +23,10 @@
         },
         {
           "text" : "Sometimes we use complicated design patterns, which require writing a lot of code because the UI platform in use does not lend itself well to a simpler pattern."
-        }
+        },
         {
           "text" : "What's needed is a platform that makes it easy to build UIs using simple, time-tested, developer-approved design patterns."
-        }
+        },
         {
           "text" : "Fortunately, Windows Presentation Foundation (WPF) provides exactly that."
         }
@@ -57,7 +57,8 @@
           "text" : "The unit tests in the demo solution show how easy it is to test the functionality of an application's user interface when that functionality exists in a set of ViewModel classes. Before diving into the details, let's review why you should use a pattern like MVVM in the first place."
         }
       ]
-    }{
+    },
+    {
       "SectionName" : "Part Three",
       "Content" : [
         {
